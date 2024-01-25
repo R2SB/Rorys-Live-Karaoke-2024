@@ -19,7 +19,7 @@ const Carousel = () => {
   };
 
   useEffect(() => {
-    Papa.parse("/Popular.csv", {
+    Papa.parse("/10mostrecent.csv", {
       download: true,
       header: true,
       complete: (result) => {
@@ -54,7 +54,7 @@ return (
   <section id="carousel">
   <div className="carousel__container">
     <span id="blank__space">blankspace</span>
-    <p className="carousel__quote">PICK A FAN FAVOURITE...</p>
+    <p className="carousel__quote">Newly Added Songs</p>
     <div className="carousel">
       <button onClick={previousSong} className="carousel__buttons" alt=" ">
         <img src={ prevArrow } alt=" "/> 

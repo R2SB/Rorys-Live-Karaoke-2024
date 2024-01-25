@@ -61,6 +61,14 @@
   font-weight: 300;
 }
 
+#landing__em {
+  font-size: 30px;
+  font-style: italic;
+  /* width: 90vb; */
+  /* line-height: 85px; */
+  margin-bottom: 50px;
+}
+
 .landing__icon {
   width: 20px;
   height: 20px;
