@@ -3,8 +3,6 @@ import Papa from 'papaparse';
 import prevArrow from "../../assets/photos/prev arrow.png"
 import nextArrow from "../../assets/photos/next arrow.png"
 import './carousel.css'
-
-
 const Carousel = () => {
   const [songs, setSongs] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);

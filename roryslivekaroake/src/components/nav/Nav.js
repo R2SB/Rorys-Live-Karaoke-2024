@@ -12,8 +12,8 @@ const Nav = () => {
     const venmoScheme = "venmo://paycharge?txn=pay&recipients=RoryChambers";
     window.location.href = venmoScheme;
     setTimeout(() => {
-      // window.location.href = "https://cash.app/$RoryChambers";
-      window.open("https://cash.app/$RoryChambers", '_blank').focus();
+      // window.location.href = "https://account.venmo.com/u/RoryChambers";
+      window.open("https://account.venmo.com/u/RoryChambers", '_blank').focus();
     }, 500);
   }
 
@@ -21,7 +21,7 @@ const Nav = () => {
     <nav>
         <div className="nav__bar">
           <div className="nav__website">
-            <a href="#" id="nav__title" onClick={() => setActiveSection('#')}>Rory's Live Karaoke</a>  
+            <a href="#" id="nav__title" onClick={() => setActiveSection('#')}>RLK</a>  
           </div>
           <div className="nav__icons">
             <a href="https://www.instagram.com/roryslivekaraoke/" target="__blank" id="nav__ig">
