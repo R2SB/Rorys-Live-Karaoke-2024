@@ -1,13 +1,11 @@
-Title,Artist,Tags,Cover,Difficulty
-40,U2,80s,https://i.scdn.co/image/ab67616d0000b273ab282af9bbff8b79516d8cbe
-1001,The Cat Empire,Aussie,https://i.scdn.co/image/ab67616d00001e02812f9086351d72d5ac9f2343
-Enough,Marvin Gaye; Tammy Terrell,60s,https://i.scdn.co/image/ab67616d0000b273bc3ada3a19bb4e657f10917e
-Ain't No Sunshine,Bill Withers,70s,https://i.scdn.co/image/ab67616d0000b2732233e28dd921fd87e527f3cf
-Ain't Nobody,Chaka Khan,80s,https://i.scdn.co/image/ab67616d0000b273590cdfb21e05bd277b432477
-Alabama Pines,Jason Isbell,Country,https://i.scdn.co/image/ab67616d0000b27370e60f739259aef3425486f9
-Alaska,Maggie Rogers,2010s,https://i.scdn.co/image/ab67616d0000b273d658a02ba8931985bdc4e0da
-Albertine,Brooke Fraser,,https://i.scdn.co/image/ab67616d0000b273515aedb12b5ebe66ec202bb7
-Alexander Hamilton,Hamilton,"Showtunes, 2010s",https://i.scdn.co/image/ab67616d0000b2733743f2dba9dde74bf4338540
-Alive,Pearl Jam,Rock,https://i.scdn.co/image/ab67616d0000b273d400d27cba05bb0545533864
-All Along the Watchtower,Bob Dylan,60s,https://i.scdn.co/image/ab67616d0000b27381efb7dfa40bbfa10a199e38
-Ice Ice Baby,Vanilla Ice,,https://i.scdn.co/image/ab67616d0000b2730d441bd2334134eca6761fc4
+SongID,Title,Artist,Tags,Cover,Difficulty
+807,Zombie,The Cranberries,90s,https://i.scdn.co/image/ab67616d0000b273f9b3ece3271d3a5fa73d3759,
+806,Your Cheatin’ Heart,Hank Williams,Country,https://i.scdn.co/image/ab67616d0000b273058ec9749ace1aa96ab57829,
+805,You've Lost That Lovin' Feeling,The Righteous Brothers,,https://i.scdn.co/image/ab67616d0000b273b48967029aa8ece08e9afa9a,
+804,You've Got To Hide Your Love Away,The Beatles,,https://i.scdn.co/image/ab67616d00001e02e3e3b64cea45265469d4cafa,
+803,You're Welcome,Moana,,https://i.scdn.co/image/ab67616d00001e023505183cc0e24d2f7560174a,
+802,You're The One That I Want,John Travolta,Showtunes,https://i.scdn.co/image/ab67616d00001e02b68df485f3304211904548a8,
+801,You're Still The One,Shania Twain,"Country, 90s",https://i.scdn.co/image/ab67616d00001e02aaf012d56b8c72658da6c45f,
+800,You’re a Mean One Mr Grinch,Christmas,,https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/b8/7b/a3/b87ba315-072f-f174-fb82-49fc48735941/886444220668.jpg/600x600bb.jpg,
+799,You'll Be Back,Hamilton,Showtunes,https://i.scdn.co/image/ab67616d0000b273d72fb5571087bca0a2fed008,
+798,You Were On My Mind,Lucius,,https://i.scdn.co/image/ab67616d0000b27372072ffce9bd372ab74663a2,
