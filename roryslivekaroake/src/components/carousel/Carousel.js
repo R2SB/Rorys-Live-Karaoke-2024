@@ -52,7 +52,7 @@ return (
   <section id="carousel">
   <div className="carousel__container">
     <span id="blank__space">blankspace</span>
-    <p className="carousel__quote">Newly Added Songs</p>
+    <p className="carousel__quote">NEWLY ADDED SONGS</p>
     <div className="carousel">
       <button onClick={previousSong} className="carousel__buttons" alt=" ">
         <img src={ prevArrow } alt=" "/> 

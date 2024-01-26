@@ -1,7 +1,7 @@
 import React from "react"
 import igIcon from "../../assets/icons/instagram.png"
 import emailIcon from "../../assets/icons/envelope.png"
-import donateIcon from "../../assets/icons/hand-holding-usd.png"
+import donateIcon from "../../assets/icons/donate.png"
 import "./nav.css"
 import { useState } from "react"
 
@@ -12,7 +12,6 @@ const Nav = () => {
     const venmoScheme = "venmo://paycharge?txn=pay&recipients=RoryChambers";
     window.location.href = venmoScheme;
     setTimeout(() => {
-      // window.location.href = "https://account.venmo.com/u/RoryChambers";
       window.open("https://account.venmo.com/u/RoryChambers", '_blank').focus();
     }, 500);
   }
@@ -31,7 +30,7 @@ const Nav = () => {
               <img src={emailIcon} className="nav__icon"/>
             </a>
             <a href="#" onClick={openVenmo}>
-              <img src={donateIcon} className="nav__icon" />
+              <img src={donateIcon} className="nav__icon" id="donate__icon" />
             </a>
           </div>
           

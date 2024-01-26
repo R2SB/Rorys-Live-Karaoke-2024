@@ -4,11 +4,11 @@
   margin-left: 3vw;
   margin-right: 3vw;
   justify-content: space-between;
+  
 }
 
-
 #nav__title {
-  font-size: var(--title-size);
+  font-size: 40px;
   font-family: var(--text-font);
   font-weight: 300;
 }
@@ -17,7 +17,6 @@
   display: flex;
   justify-content: space-between;
   width: 250px;
-  /* width: 15vh; */
 
 }
 .nav__icon {
@@ -25,15 +24,17 @@
   height: 40px;
 }
 
+#donate__icon {
+  width: 42px;
+  height: 42px;
+}
+
 @media only screen and (max-width: 480px) {
   .nav__bar {
-    margin: 3vh 3vw; 
-    width: 100%;
-    justify-content: flex-start;
+    margin: 3vh 4vw; 
+    justify-content: space-between;
     align-items: center;
     gap: 6vw;
-    /* flex-direction: column; */
-    /* justify-content: center; */
   }
 
   #nav__title {
@@ -50,6 +51,11 @@
   .nav__icon {
     width: 25px;
     height: 25px;
+  }
+
+  #donate__icon {
+    width: 27px;
+    height: 27px;
   }
 
 }
