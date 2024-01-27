@@ -1,0 +1,40 @@
+.accordian__sections {
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5vw;
+}
+
+.accordian__image {
+  height: 150px;
+  width: 150px;
+  border-radius: 5px;
+}
+
+.accordian__content {
+  /* display: flex; */
+  /* flex-direction: column; */
+  margin-top: 5vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 5vh 8vw;
+  gap: 20px;
+}
+
+.accordian__item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  /* font-weight: 300; */
+}
+
+.song__info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+#song__artist {
+  font-weight: 300;
+}
