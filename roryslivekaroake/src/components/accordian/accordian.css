@@ -10,6 +10,15 @@
   height: 150px;
   width: 150px;
   border-radius: 5px;
+  /* box-sizing: border-box; */
+  border: 0;
+  outline: none;
+  object-fit: cover;
+}
+
+
+.active__image {
+  border: 2px solid white;
 }
 
 .accordian__content {
@@ -37,4 +46,39 @@
 
 #song__artist {
   font-weight: 300;
+}
+
+@media screen and (max-width: 480px) {
+  #accordian {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .accordian__sections {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80vw;
+    /* gap: 5vw; */
+    /* margin: 5vh auto; */
+
+  }
+
+  .accordian__content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    justify-content: flex-start;
+    width: 85vw;
+  }
+
+  .accordian__image {
+    height: 125px;
+    width: 125px;
+  }
+
+
+
 }

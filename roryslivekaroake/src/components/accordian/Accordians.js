@@ -60,7 +60,8 @@ const Accordian = () => {
             alt={`Image ${index}`}
             onClick={() => handleImageClick(index, info.csv)}
             // className={`image ${activeIndex === index ? 'active': '' }`}
-            className="accordian__image"
+            // className="accordian__image"
+            className={`accordian__image ${activeIndex === index ? 'active__image' : ''}`}
             />
             ))}
       </div>
