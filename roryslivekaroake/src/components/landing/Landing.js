@@ -5,7 +5,13 @@ import "./landing.css"
 
 
 const Landing = () => {
-
+  const backgroundImageStyle = {
+    backgroundImage: `../../assets/photos/RorysLK image1.png`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+    height: '100vh', // Adjust the height as needed
+  };
 
   return (
     <section id="landing">

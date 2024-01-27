@@ -13,7 +13,7 @@ const Search = () => {
   const resultsRef= useRef(null)
 
   useEffect(() => {
-    Papa.parse("/Karaoke2024.csv", {
+    Papa.parse("/Karaoke2024-01.csv", {
       download: true,
       header: true,
       complete: (result) => {
