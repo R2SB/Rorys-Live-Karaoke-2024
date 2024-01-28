@@ -1,47 +1,27 @@
 SongID,Title,Artist,Tags,Cover,Difficulty
-5,1001 (Parking Inspector),The Cat Empire,Aussie,https://i.scdn.co/image/ab6761610000e5eb9b5b159da0137c17be39755d,easy
-38,Ana's Song,silverchair,Aussie,https://i.scdn.co/image/b362d7cd057ae8affb562483a0c1780172fba9f2,medium
-47,Arms,The Paper Kites,Aussie,https://i.scdn.co/image/ab6761610000e5eb9d4b54a5adb3f8d057d41c07,easy
 56,Back in Black,AC/DC,"Aussie, 80s",https://i.scdn.co/image/ab6761610000e5ebc4c77549095c86acb4e77b37,medium
 70,Beds are Burning,Midnight Oil,"Aussie, 80s",https://i.scdn.co/image/ab6761610000e5eb250d8955d025460671be2609,medium
 85,Bloom,The Paper Kites,Aussie,https://i.scdn.co/image/ab6761610000e5eb9d4b54a5adb3f8d057d41c07,easy
 102,Burn For You,John Farnham,"Aussie, 80s",https://i.scdn.co/image/7e5a691a3458df0b7c5c7371d673f72883d4055f,medium
-103,Burn Your Name,Powderfinger,Aussie,https://i.scdn.co/image/ab6761610000e5ebbc44cbe46c31a5759843e7fc,easy
 123,Chandelier,Sia,"Bangers, Aussie",https://i.scdn.co/image/ab6761610000e5eb25a749000611559f1719cc5f,hard
 157,Deeper Water,Paul Kelly,Aussie,https://i.scdn.co/image/ab6761610000e5eb86dc4d5c83f8016d5797559e,
 180,Down Under,Men At Work,"Aussie, 80s",https://i.scdn.co/image/296d057590a19ef7dbbe9205186e96cd6078c290,
-188,Electric Indigo,The Paper Kites,Aussie,https://i.scdn.co/image/ab6761610000e5eb9d4b54a5adb3f8d057d41c07,
-221,For the Ages,Paul Kelly,Aussie,https://i.scdn.co/image/ab6761610000e5eb86dc4d5c83f8016d5797559e,
 235,"Give Me Your Fire, Give Me Your Rain",The Paper Kites,Aussie,https://i.scdn.co/image/ab6761610000e5eb9d4b54a5adb3f8d057d41c07,
 262,Harpoon,Jebediah,Aussie,https://i.scdn.co/image/ab6761610000e5ebf9afb659b9b49e708a255523,
-285,Holy Grail,Hunters and Collectors,"Aussie, 90s",https://i.scdn.co/image/3a1c3a9e7555436c344c4be2215eca3ba6261f81,
 351,Into My Arms,Nick Cave,Aussie,https://i.scdn.co/image/ab6761610000e5ebee32d7c5cec25d73f884eba5,
 411,Long Way To The Top,AC/DC,"Rock, Aussie, 70s",https://i.scdn.co/image/ab6761610000e5ebc4c77549095c86acb4e77b37,
-439,Meet Me in the Middle of the Air,Paul Kelly,Aussie,https://i.scdn.co/image/ab6761610000e5eb86dc4d5c83f8016d5797559e,
-443,Miss You Love,silverchair,Aussie,https://i.scdn.co/image/b362d7cd057ae8affb562483a0c1780172fba9f2,
 455,My Happiness,Powderfinger,Aussie,https://i.scdn.co/image/ab6761610000e5ebbc44cbe46c31a5759843e7fc,
-468,Nothing More Than That,The Paper Kites,Aussie,https://i.scdn.co/image/ab6761610000e5eb9d4b54a5adb3f8d057d41c07,
 481,One Four Five,The Cat Empire,Aussie,https://i.scdn.co/image/ab6761610000e5eb9b5b159da0137c17be39755d,
-489,Paint,The Paper Kites,Aussie,https://i.scdn.co/image/ab6761610000e5eb9d4b54a5adb3f8d057d41c07,
 503,Prisoner of Society,The Living End,"Aussie, 90s",https://i.scdn.co/image/ab6761610000e5eb47b0a785545cfa096b1bf97d,
-517,Revelator Eyes,The Paper Kites,Aussie,https://i.scdn.co/image/ab6761610000e5eb9d4b54a5adb3f8d057d41c07,
-536,Roll On,The Living End,"Aussie, 90s",https://i.scdn.co/image/ab6761610000e5eb47b0a785545cfa096b1bf97d,
-556,She,Ben Abraham,Aussie,https://i.scdn.co/image/ab6761610000e5eb92b5bcc697568e5e926b0660,
 561,Shelter Me,The Waifs,Aussie,https://i.scdn.co/image/8b57444fdfeb1f4df5a44965c308e8cc2a8ed60a,
-573,Side to Side,The Cat Empire,Aussie,https://i.scdn.co/image/ab6761610000e5eb9b5b159da0137c17be39755d,
 588,Somebody That I Used To Know,Gotye,"Aussie, Duet",https://i.scdn.co/image/713664fded8bdd28ed84f4b2054815af92999b9c,
-590,Someone New,Paul Kelly,Aussie,https://i.scdn.co/image/ab6761610000e5eb86dc4d5c83f8016d5797559e,
-600,Space They Cannot Touch,Kate Millerheidke,Aussie,https://i.scdn.co/image/ab6761610000e5ebd889716de8ad5935cb694e36,
+600,Space They Cannot Touch,Kate Miller-Heidke,Aussie,https://i.scdn.co/image/ab6761610000e5ebd889716de8ad5935cb694e36,
 617,Straight Lines,silverchair,Aussie / Bangers,https://i.scdn.co/image/b362d7cd057ae8affb562483a0c1780172fba9f2,
 670,These Days,Powderfinger,Aussie,https://i.scdn.co/image/ab6761610000e5ebbc44cbe46c31a5759843e7fc,
-675,This Is On Me,Ben Abraham,Aussie,https://i.scdn.co/image/ab6761610000e5eb92b5bcc697568e5e926b0660,
 683,Throw Your Arms Around Me,Hunters and Collectors,"Aussie, 90s",https://i.scdn.co/image/3a1c3a9e7555436c344c4be2215eca3ba6261f81,
 684,Thunderstruck,AC/DC,"90s, Aussie",https://i.scdn.co/image/ab6761610000e5ebc4c77549095c86acb4e77b37,
 691,Titanium,Sia,"Aussie, Bangers",https://i.scdn.co/image/ab6761610000e5eb25a749000611559f1719cc5f,
 693,To Her Door,Paul Kelly,Aussie,https://i.scdn.co/image/ab6761610000e5eb86dc4d5c83f8016d5797559e,
-694,Together,Tom Tuena,Aussie,https://i.scdn.co/image/ab67616d0000b273a21bfefd9b9ce376256f6307,
 695,Tomorrow,silverchair,Aussie,https://i.scdn.co/image/b362d7cd057ae8affb562483a0c1780172fba9f2,
-697,Too Late,The Paper Kites,Aussie,https://i.scdn.co/image/ab6761610000e5eb9d4b54a5adb3f8d057d41c07,
 698,Torn,Natalie Imbruglia,"90s, Aussie",https://i.scdn.co/image/ab6761610000e5eb2e023776b822635846e1f5f1,
-737,Watch Over Me,Bernard Fanning,Aussie,https://i.scdn.co/image/ab6761610000e5eb6692d0289a7111d8a01bd440,
 796,You Shook Me All Night Long,AC/DC,"90s, Aussie",https://i.scdn.co/image/ab6761610000e5ebc4c77549095c86acb4e77b37,

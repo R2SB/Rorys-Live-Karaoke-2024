@@ -59,7 +59,7 @@ const Request = () => {
             <p>
               Got a song you'd love to perform, but can't find it on the list?</p>
             <p>
-            Fill in your details and your song request, and I'll try my best to add it!
+            Fill in your details and your song request, and I'll try my best to add it for next time!
             </p>
           </div>
 
