@@ -10,11 +10,26 @@ const Nav = () => {
   
   function openVenmo() {
     const venmoScheme = "venmo://paycharge?txn=pay&recipients=RoryChambers";
+    const venmoWebURL = "https://account.venmo.com/u/RoryChambers";
+  
+    // Try to open the Venmo app
     window.location.href = venmoScheme;
-    setTimeout(() => {
-      window.open("https://account.venmo.com/u/RoryChambers", '_blank').focus();
-    }, 500);
+  
+    // Set a timeout to open the web URL if the app didn't open
+    const timeoutDelay = 1500; // Adjust the delay as needed
+    const timeoutId = setTimeout(() => {
+      window.open(venmoWebURL, '_blank').focus();
+    }, timeoutDelay);
+  
+    // Listen for the page visibility change event
+    document.addEventListener("visibilitychange", () => {
+      // Clear the timeout if the page becomes visible
+      if (document.visibilityState === "visible") {
+        clearTimeout(timeoutId);
+      }
+    });
   }
+  
 
   return (
     <nav>
