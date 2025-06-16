@@ -53,6 +53,11 @@ const Search = () => {
     }
   })
 
+  const getDifficultyText = (difficulty) => {
+    if (!difficulty) return '';
+    return difficulty.charAt(0).toUpperCase() + difficulty.slice(1);
+  };
+
   const handleToggleDropdown = () => {
     setDropdownOpen(prevState => !prevState);
   }
@@ -121,8 +126,8 @@ const Search = () => {
                         </div>
                       </div>
                     </td>
-                    <td className="phone__song difficulty__indicator">
-                      {item.Difficulty ? <span className={`difficulty__circle ${item.Difficulty}`}></span> : ''}
+                    <td className="difficulty__indicator">
+                    {item.Difficulty ? <span className={`difficulty__pill ${item.Difficulty.toLowerCase()}`}>{getDifficultyText(item.Difficulty)}</span> : ''}
                     </td>
                   </div>
                   </tr>
@@ -130,17 +135,17 @@ const Search = () => {
           </div>
           
             {sortedData.map(item => (
-              <tr key={item.Title + item.Artist}>
+              <tr key={item.Title + item.Artist} className="computer__song">
                 
-                <td className="cover__title computer__song" >
+                <td className="cover__title" >
                    <img src={item.Cover} className="album__cover" alt=""/>
                    {item.Title}
                  </td>
-                <td className="computer__song">{item.Artist}</td>
-                <td className="computer__song">{item.Tags}</td>
+                <td>{item.Artist}</td>
+                <td>{item.Tags}</td>
                 <td className="difficulty__indicator">
                   {item.Difficulty ? 
-                    <span className={`difficulty__circle computer__song ${item.Difficulty}`}></span> : ''
+                    <span className={`difficulty__pill ${item.Difficulty.toLowerCase()}`}>{getDifficultyText(item.Difficulty)}</span> : ''
                   }
                 </td>
               </tr>

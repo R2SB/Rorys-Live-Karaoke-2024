@@ -169,7 +169,7 @@ td {
 }
 
 
-.phone__song {
+.phone__container {
   display: none;
 }
 
@@ -192,21 +192,48 @@ td {
   background-color: rgb(255, 58, 58); 
 }
 
+.difficulty__pill {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+  min-width: 70px;
+}
+
+.difficulty__pill.easy {
+  background-color: green;
+}
+
+.difficulty__pill.medium {
+  background-color: yellow;
+  color: black;
+}
+
+.difficulty__pill.hard {
+  background-color: orange;
+}
+
+.difficulty__pill.expert {
+  background-color: red;
+}
+  
 
 @media screen and (max-width: 480px) {
 
   .table__container {
     border-radius: 0;
-    padding-left: 70vw;
   }
 
   td, th {
-    width: 65vw;
+    width: 40vw;
   }
 
   .test__div {
     display: flex;
-    gap: 15vw;
+    gap: 10vw;
   }
 
   .search__container {
@@ -264,13 +291,17 @@ td {
     display: initial;
   }
 
+  .phone__container {
+    display: block;
+  }
+
   .phone__song {
     display: flex;
     align-items: center;
     gap: 2vh;
   }
 
-  .phone__song.difficulty__indicator {
+  .difficulty__indicator {
     text-align: right; 
     vertical-align: middle; 
   }
