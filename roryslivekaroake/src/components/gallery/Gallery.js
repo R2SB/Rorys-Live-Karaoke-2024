@@ -10,7 +10,7 @@ import "./gallery.css"
 
 const Gallery = () => {
 
-  const photos = [image1, image2, image3, image4, image5];
+  const photos = [image1, image2, image3, image4, image5, image1];
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const nextPhotoPhone = () => {
@@ -21,15 +21,15 @@ const Gallery = () => {
     setCurrentIndex((prevIndex) => (prevIndex - 1 + photos.length) % photos.length);
   };
   
-
   return (
     <div className="gallery">
-        {/* <p className="gallery__title">Gallery</p> */}
         <div className="computer__gallery">
-          <div className="gallery__photos">
-            <img src={image1} className="gallery__photo" alt=""></img>
-            <img src={image2} className="gallery__photo" alt=""></img>
-            <img src={image3} className="gallery__photo" alt=""></img> 
+          <div className="gallery__grid">
+            {photos.map((photo, index) => (
+              <div key={index} className="gallery__grid-item">
+                <img src={photo} className="gallery__photo" alt={`Gallery image ${index + 1}`} />
+              </div>
+            ))}
           </div>
         </div>
 
@@ -46,11 +46,7 @@ const Gallery = () => {
               </button>
             </div>
         </div>
-        
-      
-
     </div>
-
   )
 }
 

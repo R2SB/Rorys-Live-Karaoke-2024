@@ -33,6 +33,25 @@
   display: none;
 }
 
+.gallery__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+  width: 100%;
+}
+
+.gallery__grid-item {
+  aspect-ratio: 1/1;
+  overflow: hidden;
+}
+
+.gallery__grid-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 @media screen and (max-width: 480px) {
 
   .gallery {
