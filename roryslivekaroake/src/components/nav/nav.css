@@ -30,12 +30,13 @@ nav.scrolled {
 .nav__icons {
   display: flex;
   justify-content: space-between;
-  width: 250px;
-
+  width: 300px; /* Increased from 250px to give more room */
+  align-items: center;
 }
+
 .nav__icon {
-  width: 40px;
-  height: 40px;
+  width: 20px;
+  height: 20px;
 }
 
 .nav__icon__logo {
@@ -56,8 +57,24 @@ nav.scrolled .nav__icon__logo {
 }  
 
 #donate__icon {
-  width: 42px;
-  height: 42px;
+  width: 22px;
+  height: 22px;
+}
+
+.nav__item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 8px; /* Slightly adjusted margins */
+  text-decoration: none;
+  color: inherit;
+  min-width: 70px; /* Ensure minimum width for text content */
+}
+
+.nav__text {
+  font-size: 14px;
+  margin-left: 6px;
+  white-space: nowrap; /* Prevent text wrapping */
 }
 
 @media only screen and (max-width: 480px) {
@@ -76,12 +93,12 @@ nav.scrolled .nav__icon__logo {
   }
 
   .nav__icons {
-    width: 20vh;
+    width: 26vh; /* Increased from 20vh to accommodate text */
   }
 
   .nav__icon {
-    width: 25px;
-    height: 25px;
+    width: 16px;
+    height: 16px;
   }
 
   .nav__icon__logo {
@@ -97,10 +114,18 @@ nav.scrolled .nav__icon__logo {
   }
 
   #donate__icon {
-    width: 27px;
-    height: 27px;
+    width: 18px;
+    height: 18px;
   }
 
+  .nav__item {
+    min-width: 60px; /* Ensure minimum width for mobile */
+  }
+
+  .nav__text {
+    font-size: 12px;
+    margin-left: 4px;
+  }
 }
 
 
