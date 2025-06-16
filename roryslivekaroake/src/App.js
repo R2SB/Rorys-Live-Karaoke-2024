@@ -12,14 +12,16 @@ import "./index.css"
 
 function App() {
   return (
-    <div className="fadeInUp">
+    <div>
       <Nav />
-      <Landing />
-      <Gallery />
-      {/* <Carousel /> */}
-      <Accordian />
-      <Search />
-      <Request />
+      <div className="fadeInUp">
+        <Landing />
+        <Gallery />
+        {/* <Carousel /> */}
+        <Accordian />
+        <Search />
+        <Request />
+      </div>
     </div>
   );
 }

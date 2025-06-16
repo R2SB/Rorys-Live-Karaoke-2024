@@ -25,6 +25,7 @@ body {
   font-family: 'Josefin Sans', sans-serif;
   color: rgba(247,247,247,255);
   background-color: rgba(17,17,17,255);
+  padding-top: 80px;
 }
 
 code {

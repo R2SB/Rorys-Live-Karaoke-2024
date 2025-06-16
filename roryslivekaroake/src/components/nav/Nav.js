@@ -1,12 +1,25 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
 import igIcon from "../../assets/icons/instagram.png"
 import emailIcon from "../../assets/icons/envelope.png"
 import donateIcon from "../../assets/icons/donate.png"
 import "./nav.css"
-import { useState } from "react"
 
 const Nav = () => {
   const [activeSection, setActiveSection] = useState("#");
+  const [scrolled, setScrolled] = useState(false);
+  
+  // Simplified scroll event listener
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 0);
+    };
+    
+    window.addEventListener('scroll', handleScroll);
+    // Call once to initialize
+    handleScroll();
+    
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
   
   function openVenmo() {
     const venmoScheme = "venmo://paycharge?txn=pay&recipients=RoryChambers";
@@ -32,7 +45,7 @@ const Nav = () => {
   
 
   return (
-    <nav>
+    <nav className={scrolled ? "scrolled" : ""}>
         <div className="nav__bar">
           <div className="nav__website">
             <a href="#" id="nav__title" onClick={() => setActiveSection('#')}></a>  
