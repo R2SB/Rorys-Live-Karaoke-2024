@@ -38,6 +38,23 @@ nav.scrolled {
   height: 40px;
 }
 
+.nav__icon__logo {
+  width: 125px;
+  height: 250px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  transform: translateX(50px) translateY(20px);
+  transition: all 0.5s ease;
+}
+
+nav.scrolled .nav__icon__logo {
+  width: 30px;
+  height: 60px;
+  transform: translateX(10);
+}  
+
 #donate__icon {
   width: 42px;
   height: 42px;
@@ -65,6 +82,18 @@ nav.scrolled {
   .nav__icon {
     width: 25px;
     height: 25px;
+  }
+
+  .nav__icon__logo {
+    width: 50px;
+    height: 100px;
+    transform: translateX(20px) translateY(10px);
+  }
+  
+  nav.scrolled .nav__icon__logo {
+    width: 30px;
+    height: 60px;
+    transform: translateX(10);
   }
 
   #donate__icon {

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react"
 import igIcon from "../../assets/icons/instagram.png"
 import emailIcon from "../../assets/icons/envelope.png"
 import donateIcon from "../../assets/icons/donate.png"
+import logo from "../../assets/icons/Rory_LK_rev-centered.png"
 import "./nav.css"
 
 const Nav = () => {
@@ -48,7 +49,9 @@ const Nav = () => {
     <nav className={scrolled ? "scrolled" : ""}>
         <div className="nav__bar">
           <div className="nav__website">
-            <a href="#" id="nav__title" onClick={() => setActiveSection('#')}></a>  
+            <a href="#" id="nav__title" onClick={() => setActiveSection('#')}>
+              <img src={logo} className="nav__icon__logo" />
+            </a>
           </div>
           <div className="nav__icons">
             <a href="https://www.instagram.com/roryslivekaraoke/" target="__blank" id="nav__ig">
