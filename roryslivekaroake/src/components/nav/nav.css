@@ -83,6 +83,7 @@ nav.scrolled .nav__icon__logo {
     justify-content: space-between;
     align-items: center;
     gap: 6vw;
+    padding: 0 8px;
   }
 
   #nav__title {
@@ -93,12 +94,13 @@ nav.scrolled .nav__icon__logo {
   }
 
   .nav__icons {
-    width: 26vh; /* Increased from 20vh to accommodate text */
+    width: 70%; /* Adjusted for better spacing */
+    justify-content: space-around;
   }
 
   .nav__icon {
-    width: 16px;
-    height: 16px;
+    width: 20px;
+    height: 20px;
   }
 
   .nav__icon__logo {
@@ -120,13 +122,13 @@ nav.scrolled .nav__icon__logo {
 
   .nav__item {
     min-width: 60px; /* Ensure minimum width for mobile */
+    margin: 0 5px;
   }
 
   .nav__text {
-    font-size: 12px;
+    font-size: 0.8rem; /* Adjusted for smaller screens */
     margin-left: 4px;
   }
 }
-
 
 
