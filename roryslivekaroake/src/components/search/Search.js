@@ -7,9 +7,9 @@ import { PLAYLIST_URL } from '../../constants';
 const Search = () => {
   const [data, setData] = useState([])
   const [searchTerm, setSearchTerm] = useState("");
-  const [sortOrder, setSortOrder] = useState("");
+  const [sortOrder, setSortOrder] = useState("Title");
   const [isDropdownOpen, setDropdownOpen] = useState(false);
-  const [selectedOption, setSelectedOption] = useState("None");
+  const [selectedOption, setSelectedOption] = useState("Title");
   const resultsRef= useRef(null)
   useEffect(() => {
       Papa.parse(PLAYLIST_URL + "&sheet=Main", {
