@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import Papa from 'papaparse';
 import "./search.css"
 import clearIcon from "../../assets/icons/clear.png";
-
+import { PLAYLIST_URL } from '../../constants';
 
 const Search = () => {
   const [data, setData] = useState([])
@@ -11,15 +11,15 @@ const Search = () => {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
   const [selectedOption, setSelectedOption] = useState("None");
   const resultsRef= useRef(null)
-
   useEffect(() => {
-    Papa.parse("/Karaoke2024-01.csv", {
-      download: true,
-      header: true,
-      complete: (result) => {
-        setData(result.data);
-      } 
-    });
+      Papa.parse(PLAYLIST_URL + "&sheet=Main", {
+        download: true,
+        header: true,
+        complete: (result) => {
+          setData(result.data);
+        } 
+      }
+    );
     if (searchTerm && resultsRef.current) {
       resultsRef.current.scrollTop = 0;
     }

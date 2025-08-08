@@ -10,6 +10,7 @@ import Request from "./components/request/Request"
 import "./App.css"
 import "./index.css"
 
+var PLAYLIST_URL = "https://docs.google.com/spreadsheets/d/1oLJZRqhh3isarsffJC5RO6z-MYc7kjZCKwvuAF0IirQ/gviz/tq?tqx=out:csv";
 
 function App() {
   return (

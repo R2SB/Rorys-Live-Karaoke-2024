@@ -5,6 +5,7 @@ import playlist1 from "../../assets/photos/playlist-mostrecent.png"
 import playlist2 from "../../assets/photos/playlist-bangers.png"
 import playlist3 from "../../assets/photos/playlist-aussie.png"
 import playlist4 from "../../assets/photos/playlist-duets.png"
+import { PLAYLIST_URL } from '../../constants';
 
 const CsvDisplay = ({ csvData }) => {
   return (
@@ -25,10 +26,10 @@ const CsvDisplay = ({ csvData }) => {
 
 const Accordian = () => {
   const imageInfo = [
-    {src: playlist1, csv: 'playlist-mostrecent.csv'},
-    {src: playlist3, csv: 'playlist-aussie.csv'},
-    {src: playlist2, csv: 'playlist-bangers.csv'},
-    {src: playlist4, csv: 'playlist-duets.csv'}
+    {src: playlist1, csv: PLAYLIST_URL + '&sheet=MostRecent'},
+    {src: playlist3, csv: PLAYLIST_URL + '&sheet=playlist-aussie'},
+    {src: playlist2, csv: PLAYLIST_URL + '&sheet=playlist-bangers'},
+    {src: playlist4, csv: PLAYLIST_URL + '&sheet=playlist-duets'}
   ];
 
   const [activeIndex, setActiveIndex] = useState(null);
