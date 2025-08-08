@@ -29,6 +29,28 @@
   border-radius: 10px;;
 }
 
+.computer__gallery .gallery__buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 20vh;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.computer__gallery .gallery__button {
+  background-color: transparent;
+  width: 30px;
+  height: 30px;
+  border: none;
+  padding: 0;
+}
+
+.computer__gallery .gallery__button img {
+  width: 100%;
+  height: auto;
+}
+
 .phone__gallery {
   display: none;
 }
@@ -36,7 +58,7 @@
 .gallery__grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
   gap: 10px;
   width: 100%;
 }

@@ -12,6 +12,7 @@ const Gallery = () => {
 
   const photos = [image1, image2, image3, image4, image5, image1];
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [computerIndex, setComputerIndex] = useState(0);
 
   const nextPhotoPhone = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % photos.length);
@@ -21,15 +22,34 @@ const Gallery = () => {
     setCurrentIndex((prevIndex) => (prevIndex - 1 + photos.length) % photos.length);
   };
   
+  const nextPhotoComputer = () => {
+    setComputerIndex((prevIndex) => (prevIndex + 3) % photos.length);
+  };
+
+  const previousPhotoComputer = () => {
+    setComputerIndex((prevIndex) => (prevIndex - 3 + photos.length) % photos.length);
+  };
+  
   return (
     <div className="gallery">
         <div className="computer__gallery">
           <div className="gallery__grid">
-            {photos.map((photo, index) => (
-              <div key={index} className="gallery__grid-item">
-                <img src={photo} className="gallery__photo" alt={`Gallery image ${index + 1}`} />
-              </div>
-            ))}
+            {[0, 1, 2].map((offset) => {
+              const index = (computerIndex + offset) % photos.length;
+              return (
+                <div key={index} className="gallery__grid-item">
+                  <img src={photos[index]} className="gallery__photo" alt={`Gallery image ${index + 1}`} />
+                </div>
+              );
+            })}
+          </div>
+          <div className="gallery__buttons">
+              <button onClick={previousPhotoComputer} className="gallery__button">
+                <img src={ prevArrow } alt="Previous" /> 
+              </button>
+              <button onClick={nextPhotoComputer} className="gallery__button">
+                <img src={ nextArrow } alt="Next"/> 
+              </button>
           </div>
         </div>
 
