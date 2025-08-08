@@ -11,7 +11,7 @@ const CalendarEvents = () => {
   const calendarEmbedUrl = `https://calendar.google.com/calendar/embed?src=${CALENDAR_ID}&ctz=local&mode=AGENDA&showTitle=0&showNav=0&showDate=0&showPrint=0&showTabs=0&showCalendars=0&showTz=0&bgcolor=%23f9f9f9&color=%23ff5252&showHeader=0`;
   
   return (
-    <section className="calendar-events-container">
+    <section className="calendar-events-container" id="events">
       <div className="section-heading"><p>UPCOMING EVENTS</p></div>
       
       <div className={`calendar-wrapper ${isLoaded ? 'loaded' : 'loading'}`}>

@@ -46,6 +46,15 @@ const Nav = () => {
     });
   }
   
+  // Add a function to scroll to events section
+  function scrollToEvents(e) {
+    e.preventDefault();
+    const eventsSection = document.getElementById('events');
+    if (eventsSection) {
+      eventsSection.scrollIntoView({ behavior: 'smooth' });
+      setActiveSection('#events');
+    }
+  }
 
   return (
     <nav className={scrolled ? "scrolled" : ""}>
@@ -68,7 +77,7 @@ const Nav = () => {
               <img src={donateIcon} className="nav__icon" id="donate__icon" />
               <span className="nav__text">Tip Jar</span>
             </a>
-            <a href={`https://calendar.google.com/calendar/u/0/r?cid=${CALENDAR_ID}`} id="nav__cal" className="nav__item">
+            <a href="#events" onClick={scrollToEvents} id="nav__cal" className="nav__item">
               <img src={calIcon} className="nav__icon" />
               <span className="nav__text">Gigs</span>
             </a>            
