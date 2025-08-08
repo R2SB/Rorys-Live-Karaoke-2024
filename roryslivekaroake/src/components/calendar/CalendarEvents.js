@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import './CalendarEvents.css';
+import { CALENDAR_ID } from '../../constants';
 
 const CalendarEvents = () => {
   const [isLoaded, setIsLoaded] = useState(false);
   // The calendar ID from your existing code
-  const CALENDAR_ID = 'MjAwNWMwOTE3NmUzMDRkYjBmMTA3N2NjYWU0MGRmZTE4YzA2ZTRhMmNhMTVhOTdiOGE2YWE2MDQ2MGVlM2IyZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t';
   
   // Using parameters that provide a more minimal look
   // Try to use the most minimal version possible

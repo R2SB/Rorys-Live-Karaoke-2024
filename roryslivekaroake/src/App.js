@@ -20,9 +20,9 @@ function App() {
         <Landing />
         <Gallery />
         {/* <Carousel /> */}
-        <CalendarEvents />
         <Accordian />
         <Search />
+        <CalendarEvents />
         <Request />
       </div>
     </div>

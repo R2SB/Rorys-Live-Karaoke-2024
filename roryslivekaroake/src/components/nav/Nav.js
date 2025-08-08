@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from "react"
 import igIcon from "../../assets/icons/instagram.png"
+import calIcon from "../../assets/icons/calendar.png"
 import emailIcon from "../../assets/icons/envelope.png"
 import donateIcon from "../../assets/icons/donate.png"
 import logo from "../../assets/icons/Rory_LK_rev-centered.png"
 import "./nav.css"
+import { CALENDAR_ID } from '../../constants';
 
 const Nav = () => {
   const [activeSection, setActiveSection] = useState("#");
@@ -54,7 +56,7 @@ const Nav = () => {
             </a>
           </div>
           <div className="nav__icons">
-            <a href="https://www.instagram.com/roryslivekaraoke/" target="__blank" id="nav__ig" className="nav__item">
+          <a href="https://www.instagram.com/roryslivekaraoke/" target="__blank" id="nav__ig" className="nav__item">
               <img src={igIcon} className="nav__icon" />
               <span className="nav__text">Social</span>
             </a>
@@ -66,6 +68,10 @@ const Nav = () => {
               <img src={donateIcon} className="nav__icon" id="donate__icon" />
               <span className="nav__text">Tip Jar</span>
             </a>
+            <a href={`https://calendar.google.com/calendar/u/0/r?cid=${CALENDAR_ID}`} id="nav__cal" className="nav__item">
+              <img src={calIcon} className="nav__icon" />
+              <span className="nav__text">Gigs</span>
+            </a>            
           </div>
         </div>      
     </nav>
